@@ -1,0 +1,20 @@
+/* Style scrollbar for WebKit */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: rgba(128, 128, 128, 0.2); /* Slightly gray with transparency */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: rgba(128, 128, 128, 0.4); /* Slightly darker gray with transparency */
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(128, 128, 128, 0.6); /* Even darker gray on hover with transparency */
+}

@@ -1,0 +1,63 @@
+.main-content .first-row{
+    position: relative; 
+}
+.first-row{
+    display: block;
+    width: 80%;
+    margin: 50px auto 0px auto;
+}
+.first-row .icons{
+    display: block;
+    border: 1px solid black;
+    float: left;
+    width: 20%;
+    height: 80px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+.second-row{
+    display: block;
+    clear: both;
+    width: 80%;
+    margin: 50px auto 0px auto;
+}
+.second-row .icons{
+    display: block;
+    border: 1px solid black;
+    float: left;
+    width: 20%;
+    height: 80px;
+    margin: 50px 10px 0 10px;
+    border-radius: 5px;
+    position: relative;
+}
+.icons{
+    position: relative;
+}
+.icons span i{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+.icons p{
+    position: absolute;
+    bottom: 10%;
+    left: 30%;
+}
+.icons .icon a{
+    color: black;
+}
+.icons .count{
+    margin-left: 100px;
+}
+.second-row .icons span a i:hover{
+    transform: translate(0px, -2px);
+}
+.second-row .icons p{
+    position: absolute;
+    top: 30%;
+    font-size: 1.1em;
+}
+.main-content span{
+    font-size: 35px;
+}
